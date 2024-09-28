@@ -26,13 +26,47 @@
     gap: 100px;
     background: linear-gradient(to top right, #000066 0%, #6600cc 100%);
   }
+
+  .feature h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
   .feature img{
     padding-top: 80px;
+
   }
   
-  @media (max-width: 768px) {
-    .features-grid {
-      grid-template-columns: 1fr;
+  @media (max-width: 1024px) {
+    .features {
+        padding: 50px 50px;
     }
+
+    .features-left p {
+        margin-top: 100px; 
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+  .features {
+      padding: 30px; 
+      flex-direction: column;
+      text-align: center;
   }
-  
+
+  .features-left p {
+      width: auto; 
+      margin-top: 20px;
+  }
+
+  .features-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .feature {
+      padding: 10px;
+  }
+}

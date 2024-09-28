@@ -26,9 +26,30 @@
     border-radius: 20px;
   }
   
+
+  
   @media (max-width: 768px) {
     .nav ul {
-      flex-direction: column;
+        flex-direction: column; 
+        gap: 15px; 
     }
+
+    .nav ul {
+      display: none;
+    }
+
+    .buy-token {
+        padding: 9px 18px; 
+    }
+}
+
+@media (max-width: 480px) {
+  
+  .nav ul {
+    display: none;
   }
+  .buy-token {
+      padding: 8px 15px; 
+  }
+}
   

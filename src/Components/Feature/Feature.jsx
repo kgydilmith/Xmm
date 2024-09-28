@@ -18,6 +18,7 @@ const Feature = () => {
 
       <div className="features-grid">
         <div className="feature">
+          <h3>01</h3>
           <h3>Benefits For Holders</h3>
           <img src={feature1} alt="Benefit For Holders" />
 
@@ -28,6 +29,7 @@ const Feature = () => {
           </p>
         </div>
         <div className="feature">
+        <h3>02</h3>
           <h3>Biggest Community</h3>
           <img src={feature2} alt="Biggest Community" />
 
@@ -38,6 +40,7 @@ const Feature = () => {
           </p>
         </div>
         <div className="feature">
+        <h3>03</h3>
           <h3>Ecosystem - Redefined</h3>
           <img src={feature3} alt="Ecosystem Redefined" />
 

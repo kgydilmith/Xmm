@@ -20,9 +20,9 @@ const Hero = () => {
 
       <button className="cta-button">Join Telegram</button>
 
-      <img src={user1} alt="" />
+      <img className="img1" src={user1} alt="" />
       <img className="img2" src={user2} alt="" />
-      <img src={user3} alt="" />
+      <img className="img3" src={user3} alt="" />
 
       <p className="text2">Our happy customers</p>
       <p className="text3">
