@@ -1,0 +1,38 @@
+.features {
+    display: flex;
+    padding: 0px 100px 50px 100px;
+    background: linear-gradient(to top right, #000066 0%, #6600cc 100%);
+    color: white;
+  }
+
+  .features-left h2{
+   font-size: 24px;  
+  }
+  .features-left p{
+    margin-top: 190px;
+    width: 40vh;
+    padding-right: 30px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  .feature{
+    padding-left: 20px;
+    padding-right: 50px;
+    gap: 100px;
+    background: linear-gradient(to top right, #000066 0%, #6600cc 100%);
+  }
+  .feature img{
+    padding-top: 80px;
+  }
+  
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
